@@ -1,13 +1,14 @@
 {
   "name": "node-farm",
   "version": "1.0.0",
-  "description": "'this is a new description package'",
+  "description": "this is a new description package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "build": "npm install && npm run build"
   },
-  "author": "\"sumanshu Borkar\"",
+  "author": "sumanshu Borkar",
   "license": "ISC",
   "dependencies": {
     "slugify": "^1.6.5"
@@ -16,3 +17,4 @@
     "nodemon": "^2.0.21"
   }
 }
+
